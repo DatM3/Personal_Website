@@ -1,7 +1,7 @@
-Codebase for my personal website. Based on a theme from Start Bootstrap that has been slowly changing as I go.
+Codebase for my personal website. Based on a theme from [Start Bootstrap](http://getbootstrap.com/) that has been slowly changing as I go.
 
-Original credits for the theme: 
-## Creator
+## Original credits for the theme: 
+# Creator
 
 Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
 
@@ -10,6 +10,6 @@ Start Bootstrap was created by and is maintained by **David Miller**, Managing P
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-## Copyright and License
+# Copyright and License
 
 Copyright 2014 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-agency/blob/gh-pages/LICENSE) license.
