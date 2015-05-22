@@ -265,8 +265,8 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(http://www.cs.utexas.edu/~crl947/hm.jpg);
-    background-position: 50% 75%;
+    background-image: url(../img/Austin_Skyline_at_Dusk.jpg);
+    background-position: 50% 40%;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -275,8 +275,8 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 header .intro-text .intro-lead-in {
@@ -288,18 +288,18 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 75px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 75px;
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 90px;
+        padding-bottom: 90px;
     }
 
     header .intro-text .intro-lead-in {
@@ -308,15 +308,19 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+	position:relative;
+	top: 100px;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 65px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+	position: relative;
+	top: 175px;
     }
 }
 
