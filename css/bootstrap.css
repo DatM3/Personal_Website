@@ -961,6 +961,8 @@ img {
 }
 .img-circle {
   border-radius: 50%;
+    position: absolute;
+    right: 0px;
 }
 hr {
   margin-top: 20px;

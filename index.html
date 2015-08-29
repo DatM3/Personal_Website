@@ -2,17 +2,23 @@
 <html lang="en">
 
 <head>
+ <!-- Gfycat Bookmarklet example -->
+
+    <script type="text/javascript">
+        function gifToGfycat() {
+        var newUrl = "http://gfycat.com/fetch/http://i.imgur.com/L2Phne6.gif"
+        window.open(newUrl, "name1");
+        }
+    </script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Collin Long is a current full-time student studying Computer Science at the University of Texas at Austin. He hopes to develop beautiful software that will change how people interact with technology">
+    <meta name="author" content="Collin Long">
 
     <title>Collin Long</title>
-    <link rel="icon"
-	type="image/png"
-	href="http://www.cs.utexas.edu/~crl947/c_white_on_black_favicon.ico">
+    <link rel="icon" type="image/png" href="http://www.cs.utexas.edu/~crl947/c_white_on_black_favicon.ico">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,13 +32,6 @@
     <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 
@@ -85,114 +84,168 @@
     </header>
 
     <!-- About Section -->
-    <section id="about">
+       <section class="success" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
+                    <h2>About</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-			    <div class ="timeline-image">
-				<img class="img-circle img-responsive" src="img/chicagosmall.jpg" alt="">
-	                    </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Myself</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Collin Long - 21 years old.<br> 
-					Born and raised in the suburbs of Chicago, Illinois.<br>
-					Lover of technology, cars, and good music.<br>
-					I enjoy spending my free time discovering new music, browsing the internet,					   and playing frisbee golf.
-				    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/uttower.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Education</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Transfer student currently studying Computer Science at 
-				    the University of Texas at Austin.<br>
-				   <strong> <font color ="#BF5700">(Hook 'Em Horns!)</font></strong><br>
-				   <strong> <u>Completed Courses:</u></strong> <br>
-	     			<b>CS 312 - Introduction to Programming</b><br>
-				   	 Fundamental concepts of stuctured programming, procedures, and data structures. All projects written in Java<br>
-				    <b>CS 314 - Data Structures</b><br>
-					Building and using data structures and algorithm analysis. Also covered specifications, testing, debugging, and assertions. All projects written in Java<br>
-                    <b>CS 429 - Computer Organization and Architecture</b><br>
-                    Introduction to low-level computer design. Included basic principles of
-                    X86, pipelining, and caching. All Projects written in C and Y86 (LISP based toy assembly)<br> 
-				   <strong><u>Courses In Progress:</u></strong><br>
-				    <b>CS 439 - Principles of Computer Systems</b><br>
-					Introduction to low-level software abstractions and their connection to underlying computer hardware. Key abstractions include threads, dynamic memory allocation, and IO. Requires writing of synchronized multithreaded programs. All Projects written in C.
-				     
-				    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Technical</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted"><strong><u>Languages:</u></strong><br>   
-				    English<br>
-				    Java<br>
-				    C<br>
-				    HTML/CSS<br>
-				    Javascript<br>
-	  			    <strong><u>Systems:</u></strong><br>
-				    Linux<br>
-				    (Ubuntu GNOME)<br>
-				    Windows 7/8<br>
-				    <strong><u>Other:</u></strong><br>
-				    Eclipse<br>
-	  			    Vim<br>
-				    Putty<br>
-				    Git<br>
-				    </p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                    <div class="row">
+                    <hr>
+                    <div class="col-md-6">
+                        <div class="col-lg-12 text-center">
+                            <h4>Myself</h4>
+                            <hr class="star-light">
+                        </div>
+                        <hr>
+                        <p>22 years old.
+                        <br>
+                        <br>Born and raised in the suburubs of Chicago, Illinois.
+                        <br>
+                        <br>Lover of technology, cars, and good music.
+                        <br>
+                        <br>I enjoy spending my free time:
+                        <ul>
+                            <li>discovering new music</li>
+                            <li>browsing the internet</li>
+                            <li>skateboarding</li>
+                            <li>and of course coding!</li>
+                        </ul>
+                        <br>As of now my interests lie in:
+                            <ul>
+                                <li>Web Apps/Development</li>
+                                <li>Mobile Apps</li>
+                                <li>Marketing/Advertising</li>
+                        </p>
+                        <br>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-lg-12 text-center">
+                            <h4>Education</h4>
+                            <hr class="star-light">
+                        </div>
+                        <hr>
+                        <p>
+                        Currently studying Computer Science at 
+                        the University of Texas at Austin.<br>
+                        <strong> <font color ="#BF5700">(Hook 'Em Horns!)</font></strong><br><br>
+                        <strong> <u>Completed Courses:</u></strong> <br>
+                        <b>CS 312 - Introduction to Programming</b>
+                        <br>Fundamental concepts of stuctured programming, procedures, and data structures. All projects written in Java<br>
+                        <b>CS 314 - Data Structures</b>
+                        <br>Building and using data structures and algorithm analysis. Also covered specifications, testing, debugging, and assertions. All projects written in Java<br>
+                        <b>CS 429 - Computer Organization and Architecture</b>
+                        <br>Introduction to low-level computer design. Included basic principles of X86, pipelining, and caching. All Projects written in C and Y86 (LISP based toy assembly)<br>
+                        <b>CS 439 - Principles of Computer Systems</b>
+                        <br>Introduction to low-level software abstractions and their connection to underlying computer hardware. Key abstractions include threads, dynamic memory allocation, and IO. Requires writing of synchronized multithreaded programs. All Projects written in C.<br>
+                        </p>
+                    </div>
             </div>
         </div>
     </section>
 
-    <!-- Portfolio Grid Section -->
-    <section id="projects" class="bg-light-gray">
+
+    <!-- Toolkit -->
+    <div id="toolkit" class="toolkit">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                <h2>Toolkit</h2>
+                </div>
+            </div>
+            <div class="row">
+                <hr>
+                <div class="col-sm-3">
+                     <h1 class="text-center">Languages<br><br>
+                    <icon class="fa fa-language fa-2x"></icon></h1>
+                    <p class="text-center">                            
+                        <br>Java
+                        <br>C
+                        <br>
+                    <strong><u>Familiar With:</u></strong><br>
+                        x86 Assembly
+                        <br>HTML/CSS 
+                        <br>Python 
+                        <br>Javascript 
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                     <h1 class="text-center">Libraries<br><br>
+                    <icon class="fa fa-book fa-2x"></icon></h1>
+                    <p class="text-center">                            
+                        BeautifulSoup
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                     <h1 class="text-center">Systems<br><br>
+                    <icon class="fa fa-laptop fa-2x"></icon></h1>
+                    <p class="text-center">
+                        Linux 
+                        <br>(Ubuntu GNOME)
+                        <br>Windows 7/8
+                        <br>Mac OSX
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                     <h1 class="text-center">Other<br><br>
+                    <icon class="fa fa-briefcase fa-2x"></icon></h1>
+                    <p class="text-center">
+                        <br>Git
+                        <br>Eclipse
+                        <br>Vim
+                        <br>Putty
+                        <br>SFTP
+                        <br>SSH
+                        <br>Sublime
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <section id="projects" class="bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Projects</h2>
-                    <h3 class="section-subheading text-muted">Coming Soon.</h3>
                 </div>
             </div>
+
+            <div class="row">
+                <hr>
+                 <div class="col-lg-12 text-center">
+                    <br>
+                    <ul>
+                        <li>
+                            <p><a href="https://github.com/DatM3/Personal_Website" target="_blank">Website</a> - I created this website based off a theme from <a href="http://startbootstrap.com" target="_blank">Start Bootstrap</a>. It was a great way for me to become acquainted with CSS/HTML and actually build something along the way. </p>
+                        </li>
+                        <br>
+                        <li>
+                            <p><a href="https://github.com/DatM3/Personal_Website" target="_blank">Chicago Cubs Highlights Scraper</a> - A little script to pull Chicago Cubs highlight videos and gameday information from the MLB servers. It was a way for me to play with Python more in depth and gave me a chance to learn how to use the BeautifulSoup library. In the future I hope to combine it with a Reddit bot that will post highlights as the game progresses.</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p><a href="https://github.com/DatM3/Gfycat_Bookmarklet" target="_blank">Gfycat Bookmarklet</a> - A JavaScript bookmarklet I made a while back to convert 
+                            Imgur GIFS to GfyCat HTML5 videos. Extremely simple but helpful when browsing Reddit and waiting for GIFs to load. Just have an Imgur GIF open in a window and
+                            click the bookmark to upload the file to GfyCat and view the HTML5.<br>
+                             <a href="" onClick="gifToGfycat();">Give it a try to see a cute animal!</a></p>
+                            <br>
+                        </li>
+                        <br>
+                    </ul>
+                </div>
     </section>
 
 
-
+    <!-- Contact -->
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Me</h2>
-                    <h3 class="section-subheading text-muted">Like what you see? Suggestions? Send me a message!</h3>
+                    <h3 class="section-subheading text-muted">Like what you see? Suggestions? Send me an email and I'll get back to you ASAP!</h3>
                 </div>
             </div>
             <div class="row">
@@ -231,6 +284,7 @@
         </div>
     </section>
 
+    <!-- Footer/Media Links -->
     <footer>
         <div class="container">
             <div class="row">
@@ -239,9 +293,7 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="http://twitter.com/collinlong97"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="http://www.facebook.com/collin.long.129"><i class="fa fa-facebook"></i></a>
+                        <li><a href="http://www.github.com/DatM3"><i class="fa fa-github"></i></a>
                         </li>
                         <li><a href="http://www.linkedin.com/pub/collin-long/aa/a22/719/"><i class="fa fa-linkedin"></i></a>
                         </li>
@@ -250,176 +302,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive" src="img/portfolio/roundicons-free.png" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p>
-                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                            <ul class="list-inline">
-                                <li>Date: July 2014</li>
-                                <li>Client: Round Icons</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Heading</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
